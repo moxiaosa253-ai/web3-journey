@@ -1,0 +1,1 @@
+console.log("Web3 Journey - Day 1");
