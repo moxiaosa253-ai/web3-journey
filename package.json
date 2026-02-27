@@ -1,17 +1,17 @@
 {
   "name": "web3-journey",
   "version": "1.0.0",
-  "description": "",
+  "description": "USDT Whale Delay Analyzer CLI",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "whale-delay": "bin/whale-delay.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/whale-delay.js"
+  },
   "dependencies": {
     "csv-writer": "^1.6.0",
-    "ethers": "^6.16.0"
+    "ethers": "^6.0.0",
+    "express": "^5.2.1"
   }
 }
